@@ -15,6 +15,7 @@
 * [General info](#general-info)
 * [Requirements](#requirements)
 * [Setup](#setup)
+* [Build](#build)
 
 ## General info
 This project is a simple template to pull, edit and launch your own telegram bot
@@ -51,3 +52,8 @@ $ git clone https://github.com/porcelaincode/telegram-bot.git
 ```sh
   $ python telegram.py
 ```
+
+## Build
+
+See the [Telegram API Documentation](https://core.telegram.org/) for a list of features to build upon this template.
+
