@@ -23,27 +23,31 @@ This project is a simple template to pull, edit and launch your own telegram bot
 Project requirements are simple:
 * python 3.6 and above
 * requests==2.25.1
-```
+```sh
 $ pip install requests
 ```
 
 ## Setup
-<ol>
-  <li> To run this project, install it locally: </li>
-  ```
-  $ git clone https://github.com/porcelaincode/telegram-bot.git
-  ```
-  <li> if you haven't yet registered a bot of your own, head to [@BotFather](https://t.me/BotFather) and follow instructions to continue </li>
 
-  <li> Head back to your project directory after getting your Bot Token </li>
+- To run this project, install it locally:
 
-  <li> in `config.cfg` file, fill in your bot token and user id </li>
-  ```
-  token = 
+```sh
+$ git clone https://github.com/porcelaincode/telegram-bot.git
+```
+
+- if you haven't yet registered a bot of your own, head to [@BotFather](https://t.me/BotFather) and follow instructions to continue
+
+- Head back to your project directory after getting your Bot Token
+
+- in `config.cfg` file, fill in your bot token and user id
+
+```
+  token =
   user_id =
-  ```
-  <li> run `telegram.py` file </li>
-  ```
+```
+
+- run `telegram.py` file
+
+```sh
   $ python telegram.py
-  ```
-</ol>
+```
