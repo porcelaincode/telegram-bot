@@ -55,5 +55,19 @@ $ git clone https://github.com/porcelaincode/telegram-bot.git
 
 ## Build
 
+You use or design your own modules returning a value
+
+```python
+
+def sampleFunction(message):
+    # Do something with the message
+    return reply
+
+your_text = str(message["text"])
+sampleReply = sampleFunction(your_text)
+telebot.send_message(sampleReply, user_id)
+
+```
+
 See the [Telegram API Documentation](https://core.telegram.org/) for a list of features to build upon this template.
 
